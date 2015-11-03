@@ -1,0 +1,64 @@
+body{
+	margin: 0;
+}
+.wrapper { 
+    position: relative;
+    width: 870px;
+    margin: 0 auto;
+}
+.header{
+	background-image: url(bg.jpg);
+	height: 200px;
+}
+.logo{
+	position: absolute;
+	top: 30px;
+    left: 200px;
+	color: #fff;
+	font: bold 20pt sans-sherif;
+	
+}
+.logo-text{
+	position: absolute;
+	top: 60px;
+    left: 230px;
+	color: #fff;
+	font: 10pt sans-sherif;
+}
+.sidebar{
+	width: 200px;
+	float: left;
+	text-align: justify;
+}
+.sidebar p {
+	font: 10pt sans-sherif;
+	margin: 5px 5px;
+}
+.sidebar h3 {
+	font: bold 12pt sans-sherif;
+	margin: 0px 5px;
+	text-align: justify; 
+}
+.sidebar img{
+	margin: 0px 5px;
+	width: 90%;
+}
+.content{
+	margin-left: 200px;
+	text-align: justify;
+	margin-top: 20px;
+}
+.content p {
+	font: 12pt sans-sherif;
+	margin: 10px 10px;
+}
+.content h3 {
+	font: bold 14pt sans-sherif;
+	margin: 0px 10px;
+	margin-top: 20;
+	text-align: justify; 
+}
+.content img{
+	margin: 5px 10px;
+	width: 96%;
+}

@@ -1,0 +1,94 @@
+.wrapper{
+	width: 100%;
+	min-width: 840px;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+h2, h3{
+	margin-top: 0;
+}
+.header{
+	width: 100%;
+	background-color: #008040;
+	color: #fff;
+	text-align: center;
+	
+}
+	.header h1{
+		font-size: 26pt;
+		margin: 0;    
+		padding: 5px 0;
+	}
+	.header h3{
+		font-size: 16pt;
+		font-weight: normal;
+		margin: 0;
+		padding-bottom: 7px;
+	}
+.center{
+	width: 840px;
+	margin: 0 auto;
+	text-align: justify;
+	padding-top: 20px;
+}
+.description{
+	
+}
+	.description h2{
+		font-size: 20pt;
+		text-align: center;
+	}
+	.description li{
+		color: red; 
+		list-style-position: inside;
+   		margin: 10px 0;
+	}
+	.description li span{
+		color: #000; 
+	}
+	.description ol{
+		margin: 0; 
+	}
+.contacts{
+	width: 100%;
+	background-color: #C60304;
+	text-align: center;
+	color: #fff;
+	padding: 20px 0;
+}
+	.contacts h2{
+		font-size: 20pt;
+		margin-top: 0;
+	}
+.info h2{
+		font-size: 20pt;
+		text-align: center;
+}
+.clients{
+	background-color: #FF8040;
+	color: #fff;
+}
+	.clients h2{
+		font-size: 20pt;
+		text-align: center;
+	}
+	.clients img{
+		width: 200px;
+		border: 1px solid black;
+	}
+.customers{
+	text-align: center;
+}
+	.end{
+		padding-bottom: 20px;
+	}
+.footer{
+	background-color: #912F00;
+	padding-top: 200px;
+	color: #fff;
+	text-align: center;
+	font-size: 12pt;
+}
