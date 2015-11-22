@@ -1,0 +1,151 @@
+body{
+	margin: 0;
+	font-family: "Trebuchet MS";
+	font-size: 10pt;
+	background: url(images/bg2.jpg) repeat-x, url(images/bg.jpg);
+}
+.wrapper{
+	margin-bottom: 40px;
+}
+.center{
+	width: 960px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding-bottom: 1px;
+}
+.header{
+	background-image: url(images/header.jpg);
+	position: relative;
+	height: 110px;
+
+	/*height: 100px*/;
+}
+	.logo{
+
+	}
+		.logo h1{			
+			font-size: 32pt;
+			color: #fff;
+			margin-top: 0;
+			padding: 60px 0px 10px 30px;
+		}
+	.description{
+		position: absolute;
+		top: 80px;
+		right: 30px;
+
+	}
+		.description span{
+			color: #CEB6A4;
+		}
+	.navigation1{
+		margin: 15px;
+		background-color: #000;
+	}
+		.navigation1 ul{
+			margin: 0;
+			padding: 0;
+		}
+		.navigation1 li{
+			float: left;
+			list-style-type: none;
+		}
+		.navigation1 a{
+			text-decoration: none;
+			color: #fff;
+			display: block;
+			background-color: #000;
+			line-height: 50px;
+			padding: 0 60px;
+		}
+		.navigation1 a:hover{
+			background-color: #1B3039;
+		}
+		
+	.clearfix{
+		clear: both;
+	}
+	.navigation2{
+		background-color: #56762D;
+		height: 220px;
+		margin: 15px;
+	}
+.content{
+	margin-bottom: 70px;
+}
+.left-sidebar{
+	margin-right: 350px;
+	margin-left: 30px;
+	text-align: justify;
+}
+	.left-sidebar a{
+		color: #96AE3E;
+	}
+	.left-sidebar a:hover{
+		text-decoration: none;
+	}
+	.left-sidebar h2{
+		color: #9F6841;
+		font-size: 28pt;
+		font-weight: normal;
+		margin: 0px;
+	}
+	.left-sidebar p{
+		line-height: 2;
+		margin: 20px 0;
+	}
+	
+.right-sidebar{
+	width: 300px;
+	float: right;
+	margin-right: 10px;
+}
+	.news{
+		background-color: #EFEDE5;
+		padding: 10px;
+	}
+	.news h2{
+		background-color: #5D9EBD;
+		color: #fff;
+		font-weight: normal;
+		padding: 10px 0px 10px 15px;
+		margin: 0px;
+
+	}
+	.news a{
+		color: #96AE3E;
+	}
+	.news a:hover{
+	text-decoration: none;
+	}
+	.news li{
+		list-style-type: none;
+		padding: 5px;
+	}
+	.news ul{
+		padding: 15px;
+		margin: 0;
+	}
+	.news p{
+		margin: 0;
+		padding: 15px;
+		text-align: justify;
+		line-height: 2;
+		padding-bottom: 0;
+	}
+
+.footer{
+	text-align: center;
+	background-color: #D1E4A7;
+	margin: 15px;
+}
+	.footer p{
+		/*margin: 70px;*/
+    	padding: 40px;
+	}
+	.footer a{
+		color: #96AE3E;
+	}
+	.footer a:hover{
+	text-decoration: none;
+	}
