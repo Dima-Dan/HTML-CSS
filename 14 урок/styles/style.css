@@ -1,0 +1,47 @@
+body{
+	background-image: url(../images/img01.gif);
+}
+.wrapper{
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 70px;
+	background: url(../images/img02.gif) no-repeat, url(../images/img03.gif) repeat-y, url(../images/img04.gif) no-repeat;
+}
+.header{
+	
+
+}
+.logo{
+	text-align: center;
+}
+h1, h2{
+	margin: 0;
+}
+h1 a{
+	font-family: 'Oswald', sans-serif;
+	font-size: 54px;
+	color: #444444;
+	text-decoration: none;
+	display: inline-block;
+  margin-top: 50px;
+}
+h2 a{
+	  font-family: 'Arvo', serif;
+    font-size: 20px;
+    color: #444444;
+		text-decoration: none;
+		font-weight: normal;
+}
+.nav li{
+	list-style-type: none;
+	float: left;
+	margin-left: 25px;
+}
+.nav li a{
+	display: inline-block;
+	margin: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+
+}
